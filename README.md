@@ -11,9 +11,9 @@ your OpenShift cluster.
 ### Create your toolbox container
 
 ```shell
-[user@hostname ~]$ toolbox create thoth-toolbox
+[user@hostname ~]$ toolbox create --image quay.io/thoth-station/thoth-toolbox:v0.2.0
 Created container: thoth-toolbox
-Enter with: toolbox enter --container thoth-toolbox
+Enter with: toolbox enter --container thoth-toolbox-v0.2.0
 [user@hostname ~]$
 ```
 
@@ -22,7 +22,7 @@ This will create a container called `thoth-toolbox-<version-id>`.
 ### Enter the toolbox
 
 ```shell
-[user@hostname ~]$ toolbox enter --container thoth-toolbox
+[user@hostname ~]$ toolbox enter --container thoth-toolbox-v0.2.0
 ⬢[user@toolbox ~]$
 ```
 
