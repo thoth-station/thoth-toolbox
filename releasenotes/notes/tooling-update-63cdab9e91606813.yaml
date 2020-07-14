@@ -1,0 +1,8 @@
+---
+prelude: >
+    This is a maintenance release, it just contains updates of the
+    contained tools.
+upgrade:
+  - |
+    Thanos, S2I-thoth and micropipenv have been upgraded to their latest
+    version. 
