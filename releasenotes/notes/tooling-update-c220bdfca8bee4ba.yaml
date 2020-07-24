@@ -1,0 +1,5 @@
+---
+upgrade:
+  - |
+    just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the 
+    Fedora 32 base image too.
