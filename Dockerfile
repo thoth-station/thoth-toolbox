@@ -1,6 +1,6 @@
 FROM registry.fedoraproject.org/f32/fedora-toolbox:32
 
-ENV NAME=thoth-toolbox VERSION=v0.5.2 ARCH=x86_64
+ENV NAME=thoth-toolbox VERSION=0 ARCH=x86_64
 LABEL com.github.containers.toolbox="true" \
     com.github.debarshiray.toolbox="true" \
     com.redhat.component="$NAME" \
