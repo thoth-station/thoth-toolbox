@@ -2,6 +2,20 @@
 Release Notes
 =============
 
+.. _Release Notes_v0.5.3:
+
+v0.5.3
+======
+
+.. _Release Notes_v0.5.3_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+- just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the 
+  Fedora 32 base image too.
+
+
 .. _Release Notes_v0.5.2:
 
 v0.5.2
