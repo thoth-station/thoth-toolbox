@@ -2,6 +2,18 @@
 Release Notes
 =============
 
+.. _Release Notes_v0.5.4:
+
+v0.5.4
+======
+
+.. _Release Notes_v0.5.3_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+- added thoth-glyph as another tool 
+
 .. _Release Notes_v0.5.3:
 
 v0.5.3

@@ -21,6 +21,10 @@ RUN rm /extra-packages
 
 RUN dnf clean all
 
-RUN pip3 install thoth-s2i thamos
+RUN  dnf group install -y --setopt=tsflags=nodocs "Development Tools" && \
+     dnf install -y --setopt=tsflags=nodocs python3-devel gcc-c++ && \
+     pip3 install thoth-s2i thamos thoth-glyph && \ 
+     dnf group remove -y "Development Tools" && \
+     dnf remove -y gcc-c++ python3-devel
 
 CMD /bin/sh

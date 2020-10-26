@@ -11,9 +11,9 @@ your OpenShift cluster.
 ### Create your toolbox container
 
 ```shell
-[user@hostname ~]$ toolbox create --image quay.io/thoth-station/thoth-toolbox:v0.5.2
+[user@hostname ~]$ toolbox create --image quay.io/thoth-station/thoth-toolbox:v0.5.4
 Created container: thoth-toolbox
-Enter with: toolbox enter --container thoth-toolbox-v0.5.2
+Enter with: toolbox enter --container thoth-toolbox-v0.5.4
 [user@hostname ~]$
 ```
 
@@ -22,7 +22,7 @@ This will create a container called `thoth-toolbox-<version-id>`.
 ### Enter the toolbox
 
 ```shell
-[user@hostname ~]$ toolbox enter --container thoth-toolbox-v0.5.2
+[user@hostname ~]$ toolbox enter --container thoth-toolbox-v0.5.4
 ⬢[user@toolbox ~]$
 ```
 
@@ -38,6 +38,12 @@ information.
 
 A CLI tool and library for communicating with Thoth backend, see https://github.com/thoth-station/thamos/blob/master/README.rst
 for more information.
+
+#### thoth-glyph
+
+[Glyph](https://github.com/thoth-station/glyph) uses Machine Learning and Natural Language Processing to understand
+commit messages. This knowledge can be used for classifying commits into categories such as Bug-fixes, Feature
+additions, Improvements etc.
 
 ## Background Information
 
