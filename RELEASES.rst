@@ -2,6 +2,19 @@
 Release Notes
 =============
 
+.. _Release Notes_v0.5.5:
+
+v0.5.5
+======
+
+.. _Release Notes_v0.5.4_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+- updated thanos 
+
+
 .. _Release Notes_v0.5.4:
 
 v0.5.4
