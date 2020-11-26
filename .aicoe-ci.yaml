@@ -6,5 +6,7 @@ build:
   base-image: registry.access.redhat.com/ubi8/ubi:latest
   build-stratergy: Dockerfile
   dockerfile-path: Dockerfile
+  registry: quay.io
+  registry-org: thoth-station
   registry-project: thoth-toolbox
   registry-secret: thoth-station-thoth-pusher-secret
