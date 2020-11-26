@@ -12,7 +12,7 @@ v0.5.6
 Upgrade Notes
 -------------
 
-- updated thanos 
+- updated thanos
 
 
 .. _Release Notes_v0.5.5:
@@ -25,7 +25,7 @@ v0.5.5
 Upgrade Notes
 -------------
 
-- updated thanos 
+- updated thanos
 
 
 .. _Release Notes_v0.5.4:
@@ -38,7 +38,7 @@ v0.5.4
 Upgrade Notes
 -------------
 
-- added thoth-glyph as another tool 
+- added thoth-glyph as another tool
 
 .. _Release Notes_v0.5.3:
 
@@ -50,7 +50,7 @@ v0.5.3
 Upgrade Notes
 -------------
 
-- just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the 
+- just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the
   Fedora 32 base image too.
 
 
@@ -64,7 +64,7 @@ v0.5.2
 Upgrade Notes
 -------------
 
-- just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the 
+- just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the
   Fedora 32 base image too.
 
 
@@ -78,7 +78,7 @@ v0.5.1
 Upgrade Notes
 -------------
 
-- just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the 
+- just a bunch of updated tools: micropipenv, thamos, thoth-s2i, and the
   Fedora 32 base image too.
 
 
@@ -101,5 +101,4 @@ Upgrade Notes
 -------------
 
 - Thanos, S2I-thoth and micropipenv have been upgraded to their latest
-  version. 
-
+  version.
