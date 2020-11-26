@@ -1,0 +1,10 @@
+# Setup and configuring aicoe-ci with configuration file `.aicoe-ci.yaml`
+check:
+  - thoth-precommit
+  - thoth-build
+build:
+  base-image: registry.access.redhat.com/ubi8/ubi:latest
+  build-stratergy: Dockerfile
+  dockerfile-path: Dockerfile
+  registry-project: thoth-toolbox
+  registry-secret: thoth-station-thoth-pusher-secret
