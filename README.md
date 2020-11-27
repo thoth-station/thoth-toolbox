@@ -6,8 +6,6 @@ This is a Thoth toolbox! It contains a few tools published by Project Thoth
 ready to use on your local source code repositories or in conjunction with
 your OpenShift cluster.
 
-[![Container Image Repository on Quay](https://quay.io/repository/thoth-station/thoth-toolbox/status "Container Image Repository on Quay")](https://quay.io/repository/thoth-station/thoth-toolbox)
-
 ## Usage
 
 ### Create your toolbox container
