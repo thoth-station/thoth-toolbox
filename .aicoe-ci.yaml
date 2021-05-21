@@ -1,6 +1,5 @@
 # Setup and configuring aicoe-ci with configuration file `.aicoe-ci.yaml`
 check:
-  - thoth-precommit
   - thoth-build
 build:
   base-image: registry.access.redhat.com/ubi8/ubi:latest
