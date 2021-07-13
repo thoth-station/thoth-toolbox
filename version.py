@@ -1,4 +1,4 @@
 """Thoth Toolbox."""
 
 __name__ = "thoth_toolbox"
-__version__ = "v0.6.0"
+__version__ = "0.6.0"
