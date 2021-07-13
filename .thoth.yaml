@@ -16,7 +16,6 @@ runtime_environments:
     platform: linux-x86_64
 
 managers:
-  - name: pipfile-requirements
   - name: info
   - name: version
     configuration:
