@@ -2,55 +2,30 @@
 # (named as .thoth.yaml) used by Thamos CLI as well as by Thoth bots. Please
 # adjust values listed below as desired.
 
-# A remote Thoth service to talk to:
-host: api.preprod.thoth-station.ninja/test/
-
-# Configure TLS verification for communication with remote Thoth instance:
+host: khemenu.thoth-station.ninja
 tls_verify: false
-
-# Format of requirements file, supported are "pip" and "pipenv":
 requirements_format: pipenv
 
 runtime_environments:
-  - name: 'fedora:32'
-    # Operating system for which the recommendations should be created:
+  - name: fedora:34
     operating_system:
-      name: fedora
-      version: '32'
-    # Hardware information for the recommendation engine:
-    hardware:
-      # Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
-      cpu_family: 6
-      cpu_model: 142
-    # Software configuration of runtime environment:
+      name: fedora 
+      version: '34'
     python_version: '3.8'
-    cuda_version: null
-    # Recommendation type - one of:
-    #  * testing
-    #  * stable
-    #  * latest
-    #  * performance
-    #  * security
     recommendation_type: stable
-    # Platform used for running the application - corresponds to sysconfig.get_platform() call (e.g. 'linux-x86_64')
     platform: linux-x86_64
 
-#
-# Configuration of bots:
-#
 managers:
   - name: pipfile-requirements
   - name: info
   - name: version
     configuration:
-      # A list of maintainers (GitHub or GitLab accounts) of this repository:
-      maintainers: []
-      # A list of assignees to which the opened pull requests and issues should
-      # be assigned to:
-      assignees: []
-      # Labels for issues and pull requests:
+      maintainers:
+        - sesheta
+        - goern
+      assignees:
+        - sesehta 
       labels:
         - bot
-      # Automatically maintain a changelog file stating features of new
-      # releases:
       changelog_file: true
+      changelog_smart: true
