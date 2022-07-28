@@ -1,12 +1,12 @@
 ---
 repos:
-  - repo: git://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.1.9
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.3.0
     hooks:
       - id: remove-tabs
 
-  - repo: git://github.com/pre-commit/pre-commit-hooks
-    rev: v3.3.0
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
     hooks:
       - id: trailing-whitespace
       - id: check-merge-conflict
@@ -18,7 +18,7 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.3.0
+    rev: v4.3.0
     hooks:
       - id: check-yaml
       - id: end-of-file-fixer
